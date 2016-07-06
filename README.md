@@ -39,5 +39,5 @@
 - rtmp://60.174.36.89:1935/live/aaa 
 (rtmp://60.174.36.89:1935/live/vod3)
 
-http://www.jianshu.com/p/5b1341e97757
+[想做一套直播系统？看我就够了](http://www.jianshu.com/p/5b1341e97757)
 
