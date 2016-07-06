@@ -2584,7 +2584,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
-					"$(PROJECT_DIR)/高仿映客/Class/Helpers/librtmp-iOS/lib",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xujia.hehehe;
@@ -2608,7 +2607,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
-					"$(PROJECT_DIR)/高仿映客/Class/Helpers/librtmp-iOS/lib",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xujia.hehehe;
