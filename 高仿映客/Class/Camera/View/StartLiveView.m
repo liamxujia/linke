@@ -210,6 +210,7 @@ static int padding = 30;
 }
 
 #pragma mark ---- <开始录制>
+//调用LF的API开始录制
 - (UIButton*)startLiveButton{
     if(!_startLiveButton){
         
