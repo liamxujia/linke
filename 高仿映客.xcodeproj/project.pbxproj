@@ -25,7 +25,6 @@
 		B55D493E1D26D38A00E3FFE4 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D493D1D26D38A00E3FFE4 /* PlayerViewController.m */; };
 		B55D49411D26D82200E3FFE4 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D49401D26D82200E3FFE4 /* PlayerModel.m */; };
 		B55D49441D26D87500E3FFE4 /* PlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D49431D26D87500E3FFE4 /* PlayerTableViewCell.m */; };
-		B55D49461D26DD1800E3FFE4 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D49451D26DD1800E3FFE4 /* IJKMediaFramework.framework */; };
 		B55D49481D26DD9B00E3FFE4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D49471D26DD9B00E3FFE4 /* Accelerate.framework */; };
 		B55D494A1D26DDA300E3FFE4 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D49491D26DDA300E3FFE4 /* VideoToolbox.framework */; };
 		B55D494C1D26DDB500E3FFE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D494B1D26DDB500E3FFE4 /* QuartzCore.framework */; };
@@ -342,7 +341,6 @@
 		B55D49401D26D82200E3FFE4 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
 		B55D49421D26D87500E3FFE4 /* PlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTableViewCell.h; sourceTree = "<group>"; };
 		B55D49431D26D87500E3FFE4 /* PlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTableViewCell.m; sourceTree = "<group>"; };
-		B55D49451D26DD1800E3FFE4 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		B55D49471D26DD9B00E3FFE4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		B55D49491D26DDA300E3FFE4 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		B55D494B1D26DDB500E3FFE4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -991,7 +989,6 @@
 				B5C0BFAB1D28BB48002F5D26 /* libcrypto.a in Frameworks */,
 				B55D494A1D26DDA300E3FFE4 /* VideoToolbox.framework in Frameworks */,
 				B55D49481D26DD9B00E3FFE4 /* Accelerate.framework in Frameworks */,
-				B55D49461D26DD1800E3FFE4 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1061,7 +1058,6 @@
 				B55D494B1D26DDB500E3FFE4 /* QuartzCore.framework */,
 				B55D49491D26DDA300E3FFE4 /* VideoToolbox.framework */,
 				B55D49471D26DD9B00E3FFE4 /* Accelerate.framework */,
-				B55D49451D26DD1800E3FFE4 /* IJKMediaFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
