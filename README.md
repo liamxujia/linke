@@ -39,5 +39,5 @@
 - rtmp://60.174.36.89:1935/live/aaa 
 (rtmp://60.174.36.89:1935/live/vod3)
 
-[做一套像映客一样的直播系统？你看我就够了](http://www.jianshu.com/p/08e4a3c8f001)
+http://www.jianshu.com/p/5b1341e97757
 
