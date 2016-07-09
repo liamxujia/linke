@@ -55,7 +55,6 @@
 		B5C0C0221D2942BA002F5D26 /* MineHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C0C0211D2942BA002F5D26 /* MineHeadView.xib */; };
 		B5C0C0251D2946F4002F5D26 /* MiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C0241D2946F4002F5D26 /* MiddleView.m */; };
 		B5C0C0271D294705002F5D26 /* MiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C0C0261D294705002F5D26 /* MiddleView.xib */; };
-		B5C0C0301D2A4A7E002F5D26 /* PorscheCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C02F1D2A4A7E002F5D26 /* PorscheCarView.m */; };
 		B5C0C0571D2A9167002F5D26 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C0561D2A9167002F5D26 /* MyView.m */; };
 		B5C0C2BB1D2AC1CC002F5D26 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C05C1D2AC1CB002F5D26 /* AFHTTPRequestOperation.m */; };
 		B5C0C2BC1D2AC1CC002F5D26 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C05E1D2AC1CB002F5D26 /* AFHTTPRequestOperationManager.m */; };
@@ -380,8 +379,6 @@
 		B5C0C0231D2946F4002F5D26 /* MiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleView.h; sourceTree = "<group>"; };
 		B5C0C0241D2946F4002F5D26 /* MiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleView.m; sourceTree = "<group>"; };
 		B5C0C0261D294705002F5D26 /* MiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiddleView.xib; sourceTree = "<group>"; };
-		B5C0C02E1D2A4A7E002F5D26 /* PorscheCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorscheCarView.h; sourceTree = "<group>"; };
-		B5C0C02F1D2A4A7E002F5D26 /* PorscheCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorscheCarView.m; sourceTree = "<group>"; };
 		B5C0C0551D2A9167002F5D26 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		B5C0C0561D2A9167002F5D26 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		B5C0C05B1D2AC1CB002F5D26 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -1126,8 +1123,6 @@
 			children = (
 				B55D49421D26D87500E3FFE4 /* PlayerTableViewCell.h */,
 				B55D49431D26D87500E3FFE4 /* PlayerTableViewCell.m */,
-				B5C0C02E1D2A4A7E002F5D26 /* PorscheCarView.h */,
-				B5C0C02F1D2A4A7E002F5D26 /* PorscheCarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2205,7 +2200,6 @@
 				B5C0C0151D28EBA8002F5D26 /* UIView+Frame.m in Sources */,
 				B5C0C2EC1D2AC1CC002F5D26 /* GPUImageCrosshairGenerator.m in Sources */,
 				B5C0C3351D2AC1CC002F5D26 /* GPUImageParallelCoordinateLineTransformFilter.m in Sources */,
-				B5C0C0301D2A4A7E002F5D26 /* PorscheCarView.m in Sources */,
 				B5C0C3511D2AC1CC002F5D26 /* GPUImageSoftLightBlendFilter.m in Sources */,
 				B55D49351D26CB9B00E3FFE4 /* HotViewController.m in Sources */,
 				B5C0C3061D2AC1CC002F5D26 /* GPUImageHalftoneFilter.m in Sources */,
