@@ -1,7 +1,7 @@
 # 520Linkee
 本项目比较完备的实现了作为一个直播App的基本功能，比如本地视频流采集、播放、美颜、礼物、点赞出心等。
 
-
+![Linkee.10](http://upload-images.jianshu.io/upload_images/2004362-acd9765f38aa69b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **美颜功能**使用的是BeautifyFace，本框架可以很快速的实现美颜功能，效果不错，它的底层还是基于的GPUImage，对GPUImage十分喜爱的Developer，可以参照BeautifyFace，写出一个属于自己的美颜功能，并且添加各种滤镜。
 
