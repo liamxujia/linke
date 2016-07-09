@@ -2567,6 +2567,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/高仿映客/Class/Live/View",
 				);
 				INFOPLIST_FILE = "高仿映客/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2590,6 +2591,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/高仿映客/Class/Live/View",
 				);
 				INFOPLIST_FILE = "高仿映客/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
