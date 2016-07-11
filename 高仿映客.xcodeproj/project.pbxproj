@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53DB4C81D334AE600E48B9E /* XJScrollerHiddenBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53DB4C71D334AE600E48B9E /* XJScrollerHiddenBarViewController.m */; };
 		B55D47911D23ED7600E3FFE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D47901D23ED7600E3FFE4 /* main.m */; };
 		B55D47941D23ED7600E3FFE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D47931D23ED7600E3FFE4 /* AppDelegate.m */; };
 		B55D47971D23ED7600E3FFE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D47961D23ED7600E3FFE4 /* ViewController.m */; };
@@ -305,6 +306,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53DB4C61D334AE600E48B9E /* XJScrollerHiddenBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJScrollerHiddenBarViewController.h; sourceTree = "<group>"; };
+		B53DB4C71D334AE600E48B9E /* XJScrollerHiddenBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJScrollerHiddenBarViewController.m; sourceTree = "<group>"; };
 		B55D478C1D23ED7600E3FFE4 /* 高仿映客.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿映客.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55D47901D23ED7600E3FFE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B55D47921D23ED7600E3FFE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -989,6 +992,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B53DB4C51D334AE600E48B9E /* XJScrollerHiddenBar */ = {
+			isa = PBXGroup;
+			children = (
+				B53DB4C61D334AE600E48B9E /* XJScrollerHiddenBarViewController.h */,
+				B53DB4C71D334AE600E48B9E /* XJScrollerHiddenBarViewController.m */,
+			);
+			path = XJScrollerHiddenBar;
+			sourceTree = "<group>";
+		};
 		B55D47831D23ED7600E3FFE4 = {
 			isa = PBXGroup;
 			children = (
@@ -1267,6 +1279,7 @@
 				B5C0C2601D2AC1CC002F5D26 /* Masonry */,
 				B5C0C27A1D2AC1CC002F5D26 /* NetWorkEngine */,
 				B5C0C27D1D2AC1CC002F5D26 /* ODRefreshControl */,
+				B53DB4C51D334AE600E48B9E /* XJScrollerHiddenBar */,
 				B5C0C2801D2AC1CC002F5D26 /* SDWebImage */,
 				B5C0C2A21D2AC1CC002F5D26 /* SVProgressHUD */,
 			);
@@ -2192,6 +2205,7 @@
 				B5C0C2FB1D2AC1CC002F5D26 /* GPUImageFilter.m in Sources */,
 				B55D48AE1D26AE1100E3FFE4 /* UIView+XJExtension.m in Sources */,
 				B5C0C3981D2AC1CC002F5D26 /* ODRefreshControl.m in Sources */,
+				B53DB4C81D334AE600E48B9E /* XJScrollerHiddenBarViewController.m in Sources */,
 				B5C0C2CB1D2AC1CC002F5D26 /* UIWebView+AFNetworking.m in Sources */,
 				B5C0C2E71D2AC1CC002F5D26 /* GPUImageColorInvertFilter.m in Sources */,
 				B5C0C2DC1D2AC1CC002F5D26 /* GPUImageBrightnessFilter.m in Sources */,
