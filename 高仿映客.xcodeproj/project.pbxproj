@@ -302,7 +302,6 @@
 		B5C0C3AE1D2AC1CC002F5D26 /* SVPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C2B21D2AC1CC002F5D26 /* SVPHelper.m */; };
 		B5C0C3AF1D2AC1CC002F5D26 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5C0C2B41D2AC1CC002F5D26 /* SVProgressHUD.bundle */; };
 		B5C0C3B01D2AC1CC002F5D26 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C2B61D2AC1CC002F5D26 /* SVProgressHUD.m */; };
-		B5C0C3B11D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C2BA1D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -956,8 +955,6 @@
 		B5C0C2B41D2AC1CC002F5D26 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		B5C0C2B51D2AC1CC002F5D26 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		B5C0C2B61D2AC1CC002F5D26 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		B5C0C2B91D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJScrollerHiddenBarViewController.h; sourceTree = "<group>"; };
-		B5C0C2BA1D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJScrollerHiddenBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1272,7 +1269,6 @@
 				B5C0C27D1D2AC1CC002F5D26 /* ODRefreshControl */,
 				B5C0C2801D2AC1CC002F5D26 /* SDWebImage */,
 				B5C0C2A21D2AC1CC002F5D26 /* SVProgressHUD */,
-				B5C0C2B71D2AC1CC002F5D26 /* XJScrollerHiddenBar */,
 			);
 			name = Libs;
 			path = Main/Libs;
@@ -2091,23 +2087,6 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
-		B5C0C2B71D2AC1CC002F5D26 /* XJScrollerHiddenBar */ = {
-			isa = PBXGroup;
-			children = (
-				B5C0C2B81D2AC1CC002F5D26 /* AMScrollingNavbar */,
-				B5C0C2B91D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.h */,
-				B5C0C2BA1D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.m */,
-			);
-			path = XJScrollerHiddenBar;
-			sourceTree = "<group>";
-		};
-		B5C0C2B81D2AC1CC002F5D26 /* AMScrollingNavbar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AMScrollingNavbar;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2292,7 +2271,6 @@
 				B5C0C2DE1D2AC1CC002F5D26 /* GPUImageBulgeDistortionFilter.m in Sources */,
 				B5C0C37A1D2AC1CC002F5D26 /* LFLiveAudioConfiguration.m in Sources */,
 				B5C0C3301D2AC1CC002F5D26 /* GPUImageNormalBlendFilter.m in Sources */,
-				B5C0C3B11D2AC1CC002F5D26 /* XJScrollerHiddenBarViewController.m in Sources */,
 				B5C0C3581D2AC1CC002F5D26 /* GPUImageSwirlFilter.m in Sources */,
 				B5C0C2C21D2AC1CC002F5D26 /* AFURLResponseSerialization.m in Sources */,
 				B5C0C3721D2AC1CC002F5D26 /* GPUImagePicture+TextureSubimage.m in Sources */,
