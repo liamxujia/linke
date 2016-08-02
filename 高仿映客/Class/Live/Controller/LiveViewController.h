@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XJScrollerHiddenBarViewController.h"
 
-@interface LiveViewController : XJScrollerHiddenBarViewController
+
+@interface LiveViewController : UIViewController
 
 @end

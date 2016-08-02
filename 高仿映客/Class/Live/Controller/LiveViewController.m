@@ -60,8 +60,6 @@ static NSString * const ID = @"CELL";
     //设置状态栏为白色(还要在info,plist文件中设置View controller-based status bar appearance = NO)
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    // 加载下滑隐藏tabbar功能
-    [self followScrollView:self.collectionView];
 
 }
 
