@@ -162,8 +162,8 @@ static int padding = 30;
 
         [_closeButton setImage:[UIImage imageNamed:@"close_preview"] forState:UIControlStateNormal];
         _closeButton.exclusiveTouch = YES;
+        __weak __typeof__(self) weakSelf = self;
         [_closeButton addBlockForControlEvents:UIControlEventTouchUpInside block:^(id sender) {
-            __weak __typeof__(self) weakSelf = self;
             [weakSelf.viewController dismissViewControllerAnimated:YES completion:nil];
         }];
     }
