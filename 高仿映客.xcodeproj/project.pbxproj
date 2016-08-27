@@ -302,6 +302,7 @@
 		B5C0C3AE1D2AC1CC002F5D26 /* SVPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C2B21D2AC1CC002F5D26 /* SVPHelper.m */; };
 		B5C0C3AF1D2AC1CC002F5D26 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5C0C2B41D2AC1CC002F5D26 /* SVProgressHUD.bundle */; };
 		B5C0C3B01D2AC1CC002F5D26 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C0C2B61D2AC1CC002F5D26 /* SVProgressHUD.m */; };
+		B5F87C9F1D61A44900A97A06 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F87C9E1D61A44900A97A06 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -955,6 +956,7 @@
 		B5C0C2B41D2AC1CC002F5D26 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		B5C0C2B51D2AC1CC002F5D26 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		B5C0C2B61D2AC1CC002F5D26 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B5F87C9E1D61A44900A97A06 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = LFLiveKit/objects/IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -967,6 +969,7 @@
 				B5C0C38A1D2AC1CC002F5D26 /* libssl.a in Frameworks */,
 				B55D49601D26E29600E3FFE4 /* libz.tbd in Frameworks */,
 				B55D495E1D26E29400E3FFE4 /* libbz2.tbd in Frameworks */,
+				B5F87C9F1D61A44900A97A06 /* IJKMediaFramework.framework in Frameworks */,
 				B5C0BFAC1D28BB48002F5D26 /* librtmp.a in Frameworks */,
 				B5C0C3891D2AC1CC002F5D26 /* librtmp.a in Frameworks */,
 				B55D495C1D26E28700E3FFE4 /* AVFoundation.framework in Frameworks */,
@@ -1265,6 +1268,7 @@
 				B5C0C1D81D2AC1CC002F5D26 /* LFLiveKit */,
 				B5C0C2071D2AC1CC002F5D26 /* librtmp-iOS */,
 				B5C0C2601D2AC1CC002F5D26 /* Masonry */,
+				B5F87C9E1D61A44900A97A06 /* IJKMediaFramework.framework */,
 				B5C0C27A1D2AC1CC002F5D26 /* NetWorkEngine */,
 				B5C0C27D1D2AC1CC002F5D26 /* ODRefreshControl */,
 				B5C0C2801D2AC1CC002F5D26 /* SDWebImage */,
@@ -2548,6 +2552,7 @@
 					"$(PROJECT_DIR)/高仿映客/Class/Live/View",
 					"$(PROJECT_DIR)/高仿映客",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/LFLiveKit/objects",
 				);
 				INFOPLIST_FILE = "高仿映客/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2557,7 +2562,7 @@
 					"$(PROJECT_DIR)/Framework",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xujia.hehehe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2574,6 +2579,7 @@
 					"$(PROJECT_DIR)/高仿映客/Class/Live/View",
 					"$(PROJECT_DIR)/高仿映客",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/LFLiveKit/objects",
 				);
 				INFOPLIST_FILE = "高仿映客/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2583,7 +2589,7 @@
 					"$(PROJECT_DIR)/Framework",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xujia.hehehe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
