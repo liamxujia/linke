@@ -18,7 +18,7 @@
 
 
 
-//重复点击tabBar上按钮，刷新当前界面功能
+//重复点击tabBar上按钮，刷新当前界面
 NSString * const repeateClickTabBarButtonNote = @"repeateClickTabBarButton";
 @interface MainTabBarController () <UITabBarControllerDelegate>
 
