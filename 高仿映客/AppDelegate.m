@@ -20,9 +20,6 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    // 默认一个窗口的层级都是UIWindowLevelNormal
-    
-    // 设置窗口根控制器为广告控制器
     MainTabBarController *tabBarVC = [[MainTabBarController alloc] init];
     [UIApplication sharedApplication].keyWindow.rootViewController = tabBarVC;
    
