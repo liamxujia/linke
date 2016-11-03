@@ -43,6 +43,20 @@ static NSString * const ID = @"CELL";
     return _titleButtons;
 }
 
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if (_isInitial == NO) {
+        // 添加标题
+        [self setupAllTitle];
+        _isInitial = YES;
+    }
+    
+    // 显示导航栏
+    [[UIApplication sharedApplication] setStatusBarHidden:true];
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 设置导航条内容
@@ -83,16 +97,6 @@ static NSString * const ID = @"CELL";
     
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    if (_isInitial == NO) {
-        // 添加标题
-        [self setupAllTitle];
-        _isInitial = YES;
-    }
-
-}
 
 #pragma mark - 选中标题按钮
 - (void)selButton:(UIButton *)titleButton

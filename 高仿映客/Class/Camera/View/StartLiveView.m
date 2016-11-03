@@ -154,6 +154,9 @@ static int padding = 30;
 #pragma mark ---- <关闭界面>
 - (UIButton*)closeButton{
     
+    // 显示状态栏
+    [[UIApplication sharedApplication] setStatusBarHidden:false];
+    
     if(!_closeButton){
         _closeButton = [UIButton new];
         

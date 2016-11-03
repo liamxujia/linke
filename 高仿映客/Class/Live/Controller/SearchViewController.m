@@ -43,7 +43,7 @@
 - (void)setupLeftsearchBar {
     
     self.view.backgroundColor = [UIColor whiteColor];
-    CGFloat w = XJScreenW - 65;
+    CGFloat w = XJScreenW - 80;
     UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, w, 28)];
 
     searchBar.placeholder = @"输入映客号或昵称";

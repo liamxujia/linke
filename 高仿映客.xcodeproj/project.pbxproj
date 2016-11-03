@@ -2541,6 +2541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LZGGBJSZG3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2558,7 +2559,7 @@
 					"$(PROJECT_DIR)/Framework",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe.1228;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2568,6 +2569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LZGGBJSZG3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2585,7 +2587,7 @@
 					"$(PROJECT_DIR)/Framework",
 					"$(PROJECT_DIR)/高仿映客/Class/Main/Libs/librtmp-iOS/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujiahehehe.1228;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
