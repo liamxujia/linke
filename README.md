@@ -1,4 +1,4 @@
-# linkee
+# linke
 本项目比较完备的实现了作为一个直播App的基本功能，比如本地视频流采集、播放、美颜、礼物、点赞出心等。
 
 ![Linkee.10](http://upload-images.jianshu.io/upload_images/2004362-acd9765f38aa69b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
